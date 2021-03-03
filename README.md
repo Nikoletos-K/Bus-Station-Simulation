@@ -1,6 +1,20 @@
 # Bus-Station-Simulation
 Standalone programs that run at the same time and simulate the operation of a Bus Station. Project tsk is to get familiar with multiprocess programs, shared memory, signals and semaphores. This project was part of the subject Operational Systems in my bachelor.
 
+## Files included
+1. ```create_configFile.c``` : Program that creates the configuration file \ Run with ```./create_configFile``` , with the following options-flags:
+   - c bay_maxCapacity (upper bound-random)
+   - p max_number_of_passengers (upper bound-random)
+   - t max_parking_time (upper bound-random)
+   - b number_of_buses that will be created
+   - m time in seconds that manuver will last
+   - d seconds for comptroller to print current situation of station
+   - st .. for statistics
+   - wt time that program mystation will need in order to end ,in case of multiple ttys
+2. ```utils.c``` : useful functions for bus.c,stationmanager.c,comtroller.c
+3. ``` utils.h ```: include file
+4. ```bus.c```
+
 ## Program execution
 __Compile:__ ```make``` \
 __Execution cmds:__
