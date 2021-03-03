@@ -2,7 +2,7 @@
 Standalone programs that run at the same time and simulate the operation of a Bus Station. Project tsk is to get familiar with multiprocess programs, shared memory, signals and semaphores. This project was part of the subject Operational Systems in my bachelor.
 
 ## Program execution
-__Compile:__ ```make``` 
+__Compile:__ ```make``` \
 __Execution cmds:__
  - Bus: ```./bus -t type -n incpassengers -c capacity -p parkperiod -m mantime -s shmid ```
  - Station manager: ``` ./station-manager -s shmid ```
