@@ -1,0 +1,6 @@
+typedef enum arguments {
+
+	TYPE,PASSENGERS,CAPACITY,PARKPERIOD,MANTIME,SHMID
+
+
+}busArgs;
